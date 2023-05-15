@@ -41,7 +41,7 @@
   }
   
   .isfp {
-    color: rgb(165, 32, 218);
+    color: rgb(96, 53, 113);
   
     font-size: 40px;
   }
@@ -54,7 +54,7 @@
   }
   
   table {
-    border: 1px solid rgba(73, 25, 185, 0.63);
+    border: 1px solid rgba(73, 25, 185, 0.719);
     border-collapse: collapse;
     background-color: rgba(211, 180, 231, 0.308);
   }
@@ -75,15 +75,20 @@
         display:block;
         width: 100px;
         height: 100px;
-      }
+     }
+
   
   .isfp-table {
-    background-color:#3c024477;
+    background-color:#af7eff77;
   }
   
   .bingo th a:hover {
-        background-color:#3c024477;
+        background-color:#b683bd77;
         color:#fff;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+
       }
   
   
@@ -99,7 +104,7 @@
     margin-right: auto;
   }
   
-  button {
+  .button {
     width: 120px;
     height: 50px;
     background-color: rgba(100, 60, 138, 0.705);
@@ -108,7 +113,6 @@
     border-radius: 10px;
     color: white;
   }
-  
   
   .retry {
     margin-right: 80px;
